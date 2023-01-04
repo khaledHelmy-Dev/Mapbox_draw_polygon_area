@@ -38,6 +38,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.1
   snapping_sheet: ^3.1.0
+  mapbox_gl_modified: ^0.16.0
+  mapbox_draw_polygon_area:
+    path: ../../
 
   
 
@@ -58,17 +61,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 dependency_overrides:
-  mapbox_gl_platform_interface:
-    git:
-      url: https://github.com/ithebest/maps.git
-      ref: master
-      path: mapbox_gl_platform_interface/
-  mapbox_gl:
-    git:
-      url: https://github.com/ithebest/maps.git
-      ref: master
-  mapbox_draw_polygon_area:
-    path: ../../
+  
+  
+  
 
 flutter:
 

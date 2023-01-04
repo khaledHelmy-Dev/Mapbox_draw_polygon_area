@@ -83,6 +83,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.7"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -122,21 +129,12 @@ packages:
     source: hosted
     version: "2.0.1"
   mapbox_draw_polygon_area:
-    dependency: "direct overridden"
+    dependency: "direct main"
     description:
       path: "../.."
       relative: true
     source: path
     version: "0.0.1"
-  mapbox_gl:
-    dependency: "direct overridden"
-    description:
-      path: "."
-      ref: master
-      resolved-ref: "6beeb23a8a65cc9b4eefc93648794cfd439e89cf"
-      url: "https://github.com/ithebest/maps.git"
-    source: git
-    version: "0.16.0"
   mapbox_gl_dart:
     dependency: transitive
     description:
@@ -144,24 +142,34 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.1"
-  mapbox_gl_platform_interface:
-    dependency: "direct overridden"
+  mapbox_gl_modified:
+    dependency: "direct main"
     description:
-      path: mapbox_gl_platform_interface
-      ref: master
-      resolved-ref: "6beeb23a8a65cc9b4eefc93648794cfd439e89cf"
-      url: "https://github.com/ithebest/maps.git"
-    source: git
+      name: mapbox_gl_modified
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.16.0"
-  mapbox_gl_web:
+  mapbox_gl_modified_platform_interface:
     dependency: transitive
     description:
-      path: mapbox_gl_web
-      ref: HEAD
-      resolved-ref: f505fcf5c79b75c165703028af77f3af62d382ae
-      url: "https://github.com/tobrun/flutter-mapbox-gl.git"
-    source: git
+      name: mapbox_gl_modified_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.16.0"
+  mapbox_gl_modified_web:
+    dependency: transitive
+    description:
+      name: mapbox_gl_modified_web
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.16.0"
+  maps_toolkit:
+    dependency: transitive
+    description:
+      name: maps_toolkit
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
   matcher:
     dependency: transitive
     description:
@@ -281,4 +289,4 @@ packages:
     version: "6.1.0"
 sdks:
   dart: ">=2.18.5 <3.0.0"
-  flutter: ">=2.0.0"
+  flutter: ">=2.8.0"
