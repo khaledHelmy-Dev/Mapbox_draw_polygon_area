@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mapbox_draw_polygon_area",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mapbox_draw_polygon_area (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mapbox_draw_polygon_area (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "mapbox_draw_example",
+            "cwd": "example\\mapbox_draw_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mapbox_draw_example (profile mode)",
+            "cwd": "example\\mapbox_draw_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mapbox_draw_example (release mode)",
+            "cwd": "example\\mapbox_draw_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
