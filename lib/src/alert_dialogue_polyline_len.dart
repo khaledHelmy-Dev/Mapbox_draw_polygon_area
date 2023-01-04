@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mapbox_draw_polygon_area/mapbox_draw_polygon_area.dart';
 
+// ignore: must_be_immutable
 class EditLenDialogieBox extends StatelessWidget {
   EditLenDialogieBox({Key? key, required this.lineName}) : super(key: key);
 

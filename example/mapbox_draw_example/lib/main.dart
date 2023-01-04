@@ -42,32 +42,27 @@ class _MapboxMapExampleState extends State<MapboxMapExample> {
       floatingActionButton: Stack(
         fit: StackFit.expand,
         children: [
-          // GetX<myPacakge.MapBoxGetController>(
-          //     init: myController.MapBoxGetController(),
-          //     builder: (controller) {
-          //       return Visibility(
-          //         visible: controller.isDrawing.value,
-          // child:
-          myController.drawPad(),
-          myController.centerTargetiIcon(),
-          //           );
-          //         }),
+          myController.drawPad(), // <-------------Snapping sheet to draw points
+          myController
+              .centerTargetiIcon(), // <------Target icon that is placed in the center of the screen
         ],
       ),
       body: MapboxMap(
         styleString: MapboxStyles.LIGHT,
-        accessToken: 'mapbox public token',
+        accessToken:
+            'mapbox public token', // <-------------your public mapbox token
         onMapCreated: _onMapCreated,
         trackCameraPosition: true,
         initialCameraPosition: const CameraPosition(
           target: LatLng(40.384950128422496, -85.56492779229464),
           zoom: 16,
         ),
+        //This is a helper line that will guide you in the process
         onCameraIdle: (() {
           if (myController.listOfDrawLatLlongs.isNotEmpty &&
               !myController.isPolygonSaved.value &&
               !myController.isDiagonalSaved.value) {
-            myController.drawActiveline();
+            myController.drawActiveline(); // <-------------
           }
         }),
       ),
