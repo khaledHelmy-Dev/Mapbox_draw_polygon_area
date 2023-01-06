@@ -1,6 +1,6 @@
 name: mapbox_draw_polygon_area
 description: A Flutter package that allows you to calculate the area of a polygon drawn on a Mapbox map.
-version: 0.0.2
+version: 0.0.4
 homepage: https://github.com/BadalAc/Mapbox_draw_polygon_area.git
 
 environment:
