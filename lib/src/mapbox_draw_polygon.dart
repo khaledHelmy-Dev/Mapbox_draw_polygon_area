@@ -583,7 +583,9 @@ class MapBoxGetController extends GetxController {
             'draw_active_line_source',
             'draw_active_layer_line',
             const LineLayerProperties(
-                lineColor: '#6CB861', lineWidth: 1, linePattern: 2),
+              lineColor: '#6CB861',
+              lineWidth: 1,
+            ),
             belowLayerId: 'draw_layer_point',
           );
         }
