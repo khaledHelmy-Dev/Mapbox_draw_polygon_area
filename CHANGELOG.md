@@ -11,3 +11,7 @@ Fixed crash while adding point.
 
 Fixed crash while adding point (line pattern error).
 
+## 0.0.8
+
+Example added.
+

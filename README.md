@@ -8,7 +8,7 @@
 
 <img src="https://user-images.githubusercontent.com/57612587/210498372-60594a10-f78f-4521-8aa4-d042542f34ed.png" width="360" height="740">
 
-## Getting started
+## Examples
 
 This package is highly dependent on Get state management package.
 Install latest getX pacakge from  pub dev.
