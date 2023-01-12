@@ -15,3 +15,6 @@ Fixed crash while adding point (line pattern error).
 
 Example added.
 
+## 0.0.9
+
+Example corrected.

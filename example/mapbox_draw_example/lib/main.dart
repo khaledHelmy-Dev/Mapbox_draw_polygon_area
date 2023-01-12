@@ -50,7 +50,7 @@ class _MapboxMapExampleState extends State<MapboxMapExample> {
       body: MapboxMap(
         styleString: MapboxStyles.LIGHT,
         accessToken:
-            'pk.eyJ1IjoiaXRoZWFtYyIsImEiOiJjanE3aGV6Mm4yaXN0NDltbDF2Y3J0dHVyIn0.rTic8L-foDQnigcr8-dOEQ', // <-------------your public mapbox token
+            'Mapboox public token', // <-------------your public mapbox token
         onMapCreated: _onMapCreated,
         trackCameraPosition: true,
         initialCameraPosition: const CameraPosition(
