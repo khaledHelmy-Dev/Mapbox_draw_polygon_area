@@ -38,7 +38,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.1
   snapping_sheet: ^3.1.0
-  mapbox_gl_modified: ^0.16.0
+  mapbox_gl_modified:
+    git:
+      url: https://github.com/khaledHelmy-Dev/mapbox_gl_modified_asset.git
+      ref: master
   mapbox_draw_polygon_area:
     path: ../../
 
