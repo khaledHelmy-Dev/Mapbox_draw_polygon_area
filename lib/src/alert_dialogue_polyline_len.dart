@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mapbox_draw_polygon_area/mapbox_draw_polygon_area.dart';
+import 'package:mapbox_draw_polygon_area_asset/mapbox_draw_polygon_area.dart';
 
 // ignore: must_be_immutable
 class EditLenDialogieBox extends StatelessWidget {

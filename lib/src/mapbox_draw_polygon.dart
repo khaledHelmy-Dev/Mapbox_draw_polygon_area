@@ -3,8 +3,8 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Response;
-import 'package:mapbox_draw_polygon_area/src/alert_dialogue_polyline_len.dart';
-import 'package:mapbox_gl_modified/mapbox_gl_modified.dart';
+import 'package:mapbox_draw_polygon_area_asset/src/alert_dialogue_polyline_len.dart';
+import 'package:mapbox_gl_modified_asset/mapbox_gl_modified.dart';
 import 'package:snapping_sheet/snapping_sheet.dart';
 
 class MapBoxGetController extends GetxController {
